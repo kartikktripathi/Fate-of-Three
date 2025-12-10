@@ -8,6 +8,11 @@ const bgAudio = document.getElementById("bgaudio");
 const winAudio = document.getElementById("victoryaudio");
 const loseAudio = document.getElementById("loseaudio");
 const musicBtn = document.getElementById("musicBtn");
+const emojiMap = {
+  "Rock": "🪨",
+  "Paper": "📃",
+  "Scissors": "✂️"
+}
 
 bgAudio.volume = 0.15;
 let musicStarted = false;
@@ -61,8 +66,8 @@ result = "You Lose!";
 break;
 }
 }
-playerDisplay.textContent = `Player: ${playerChoice}`;
-compDisplay.textContent = `Computer: ${compChoice}`;
+playerDisplay.textContent = `Player: ${playerChoice} ${emojiMap[playerChoice]}`;
+compDisplay.textContent = `Computer: ${compChoice} ${emojiMap[compChoice]}`;
 resultDisplay.textContent = result;
 resultDisplay.classList.remove("green", "red", "yellow");
 switch(result){
