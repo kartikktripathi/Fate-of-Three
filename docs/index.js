@@ -13,7 +13,6 @@ const emojiMap = {
   "Paper": "📃",
   "Scissors": "✂️"
 }
-
 bgAudio.volume = 0.15;
 let musicStarted = false;
 
