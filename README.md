@@ -103,4 +103,10 @@ This project is open-source. Feel free to modify and improve.
 
 ---
 
+## 🔗 Deployed Link
+
+https://kartikktripathi.github.io/Fate-of-Three/
+
+---
+
 **Enjoy the Game!** 🎉🪨📃✂️
