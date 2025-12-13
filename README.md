@@ -51,7 +51,7 @@ docs/
 1. Download or clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/fate-of-three.git
+   git clone https://github.com/kartikktripathi/fate-of-three.git
    ```
 
 2. Open the project folder.
